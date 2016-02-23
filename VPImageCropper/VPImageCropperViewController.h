@@ -26,3 +26,10 @@ typedef void(^DPFinishHandle)(VPImageCropperViewController *controller, UIImage 
  
 
 @end
+
+
+@interface UIImage (kCategory)
+
+- (UIImage *)dp_resizedImageToSize:(CGSize)dstSize  ;
+
+@end
